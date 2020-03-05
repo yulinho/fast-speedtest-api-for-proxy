@@ -27,7 +27,7 @@ $ fast-speedtest --help
 ## Api usage
 Example:
 ```js
-const FastSpeedtest = require("fast-speedtest-api");
+const FastSpeedtest = require("fast-speedtest-api-for-proxy");
 
 let speedtest = new FastSpeedtest({
     token: "your-app-token", // required
