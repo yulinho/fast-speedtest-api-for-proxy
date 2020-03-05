@@ -1,0 +1,55 @@
+{
+  "name": "fast-speedtest-api-for-proxy",
+  "version": "0.0.1",
+  "description": "A speed test powered by fast.com proxy supported",
+  "main": "./src/Api.js",
+  "engines": {
+    "node": ">=7.10.1"
+  },
+  "scripts": {
+    "test": "mocha",
+    "release": "release-it"
+  },
+  "bin": {
+    "fast-speedtest": "./src/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yulinho/fast-speedtest-api-for-proxy.git"
+  },
+  "author": "Blake",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/yulinho/fast-speedtest-api-for-proxy/issues"
+  },
+  "homepage": "https://github.com/yulinho/fast-speedtest-api-for-proxy#readme",
+  "keywords": [
+    "speedtest",
+    "speed",
+    "network",
+    "test",
+    "fast",
+    "bandwidth",
+    "kbps",
+    "mbps",
+    "fast.com",
+    "netflix",
+    "api",
+    "cli"
+  ],
+  "dependencies": {
+    "socks5-http-client": "^1.0.4",
+    "socks5-https-client": "^1.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0",
+    "release-it": "^9.8.1"
+  },
+  "__npminstall_done": "Thu Mar 05 2020 10:15:25 GMT+0800 (China Standard Time)",
+  "_from": "fast-speedtest-api@0.3.2",
+  "_resolved": "https://registry.npm.taobao.org/fast-speedtest-api/download/fast-speedtest-api-0.3.2.tgz"
+}
