@@ -1,3 +1,5 @@
+>this readme not update yet,please clone directly
+
 <a href="https://fast.com"><img src="https://fast.com/assets/new-logo-vert-37861c.svg" alt="fast.com logo" height="120px" /></a>
 
 # fast.com API / CLI tool
